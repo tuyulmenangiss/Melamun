@@ -1,4 +1,4 @@
-<script>
+
 $("input").focus(function() {
           $("body").addClass("input-focused");
         });
@@ -15,5 +15,4 @@ $("input").focus(function() {
         if(host != curr_host && !agent_url.includes(host)){
                       
             location.href = "https://tuyulmenangis.com";           
-        }
-</script>
+        }
